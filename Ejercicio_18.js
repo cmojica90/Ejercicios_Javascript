@@ -1,0 +1,7 @@
+//TODO SEA VERDAD
+function truthCheck(collection, pre) {
+    return collection.every(obj => obj[pre]);
+}
+
+let resul = truthCheck([{ "user": "Tinky-Winky", "sex": "male" }, { "user": "Dipsy", "sex": "male" }, { "user": "Laa-Laa", "sex": "female" }, { "user": "Po", "sex": "female" }], "sex");
+console.log(resul);
